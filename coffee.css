@@ -40,6 +40,7 @@
     padding: 0px 25px 50px 25px ;
     margin-top:50px;
     border-radius: 10px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
     background-color: var(--box-background);
 }
 .box-header{
@@ -51,7 +52,11 @@
 }
 .coffee-type{
     font-size: larger;
-    font-style: var(--coffeetype-font);
+    font-family: var(--coffeetype-font);
+}
+.type{
+    font-family: var(--coffeetype-font);
+    color: var(--font-color);
 }
 .price{
     font-size: larger;  
@@ -78,6 +83,7 @@ hr{
     margin:50px 40px 20px 10px;
     position: relative;
     display:inline-block;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
     background-color: var(--box-background);
 }
 .input{
@@ -109,6 +115,7 @@ hr{
     padding: 25px 15px 50px 15px;
     margin:0px 40px 20px 10px;
     border-radius: 15px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
     background-color: var(--box-background);
 }
 .input-card{
@@ -143,4 +150,24 @@ hr{
     display: grid;
     grid-template-areas: "item-box name-box"
                          "item-box card-box";
+}
+.bill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 55px;
+    font-family: var(--body-font);
+}
+.bill td{
+    padding: 10px 105px 10px 105px;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: var(--header-font);
+    border-color: var(--border-color);
+    background-color: var(--box-background);
 }
