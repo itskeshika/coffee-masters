@@ -10,8 +10,55 @@
     --header-font:'Source Sans Pro', sans-serif;
     --coffeetype-font:'Space Mono', monospace;
     --body-font:'Noto Serif Tamil', serif;
-    --header-color:#7c2d12;
+    --header-color:#43281c;
     --box-background:#fed7aa;
     --border-color:#c2410c;
-    --font-color:#fdba74;
+    --font-color:#885a2d;
+}
+
+.coffee-masters{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-color);
+}
+.logo{
+    height:35px;
+    margin: 10px;
+}
+.hero-heading{
+    color: white;
+    font-style: var(--header-font);
+    letter-spacing: 3px;
+}
+.box1{
+    width: 50%;
+    height: 475px;
+    padding: 0px 25px 50px 25px ;
+    margin-top:50px;
+    border-radius: 10px;
+    background-color: var(--box-background);
+}
+.box-header{
+    padding: 25px;
+    font-size: larger;
+    color: var(--font-color);
+}
+.coffee-type{
+    font-size: larger;
+}
+.price{
+    font-size: larger;  
+    float: right;
+    position: relative;
+    bottom:100px;
+}
+.price2{
+    position: relative;
+    bottom: 139px;
+}
+hr{
+    border-color: var(--border-color);
 }
