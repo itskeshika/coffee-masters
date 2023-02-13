@@ -48,6 +48,7 @@
 }
 .coffee-type{
     font-size: larger;
+    font-style: var(--coffeetype-font);
 }
 .price{
     font-size: larger;  
@@ -59,6 +60,30 @@
     position: relative;
     bottom: 139px;
 }
+.type{
+    font-size: large;
+}
 hr{
     border-color: var(--border-color);
 }
+.box2{
+    width:50%;
+    height:158.33px;
+    border-radius: 10px;
+    position: relative;
+    display:inline-block;
+    background-color: var(--box-background);
+}
+.input{
+    border-color: var(--border-color);
+    border-radius: 50px;
+    width: 45%;
+    padding: 9px;
+}
+.label{
+    background-color: var(--box-background);
+    font-size: 11px;
+    position: relative;
+    top:6px;
+}
+
