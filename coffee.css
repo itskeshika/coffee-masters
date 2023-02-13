@@ -42,9 +42,11 @@
     background-color: var(--box-background);
 }
 .box-header{
-    padding: 25px;
     font-size: larger;
     color: var(--font-color);
+}
+.box-header1{
+    padding: 25px;
 }
 .coffee-type{
     font-size: larger;
@@ -75,15 +77,24 @@ hr{
     background-color: var(--box-background);
 }
 .input{
-    border-color: var(--border-color);
     border-radius: 50px;
-    width: 45%;
     padding: 9px;
+    border-color: var(--border-color);
+    background-color: var(--box-background);
 }
 .label{
-    background-color: var(--box-background);
-    font-size: 11px;
-    position: relative;
-    top:6px;
+    position: absolute;
+    left: 18px;
+    bottom: 60px;
+    padding: 0 5px;
 }
-
+.label-name{
+    background-color: var(--box-background);
+    font-size: 15px;
+}
+.name-input{
+    width: 95%;
+}
+.box-header2{
+    padding: 15px 20px 10px 20px;
+}
